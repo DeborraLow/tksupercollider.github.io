@@ -88,7 +88,7 @@ module.exports = {
 
   plugins: [
     new webpack.DefinePlugin({
-      PUBLIC_URL: PRODUCTION ? JSON.stringify('https://tksupercollider.github.io/') : JSON.stringify('/'),
+      PUBLIC_URL: PRODUCTION ? JSON.stringify('https:/tksupercollider.github.io/') : JSON.stringify('/'),
       ASSET_URL: PRODUCTION ? JSON.stringify('https://raw.githubusercontent.com/tksupercollider/tksupercollider.github.io/master/') : JSON.stringify('/')
     }),
     new ExtractTextPlugin("[name].css"),
