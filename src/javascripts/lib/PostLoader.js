@@ -4,7 +4,7 @@ let yaml = require('front-matter');
 class PostLoader {
   constructor(path) {
     return new Promise((resolve) => {
-      $.get('/posts/' + path, (result) => {
+      $.get(PUBLIC_URL + 'posts/' + path, (result) => {
         var res;
         try {
           res = yaml(result);
