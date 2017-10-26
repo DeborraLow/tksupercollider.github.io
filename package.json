@@ -5,13 +5,13 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "clean": "rm -fr ./public ./.tmp",
+    "clean": "rm -fr ./doc ./.tmp",
     "build": "npm run clean & webpack",
     "production": "npm run clean && NODE_ENV=production webpack -p",
     "watch": "npm run start",
     "start": "npm run build && npm run server",
     "deploy": "npm run production && ./deploy.sh",
-    "server": "webpack-dev-server --content-base public --historyApiFallback true"
+    "server": "webpack-dev-server --content-base doc --historyApiFallback true"
   },
   "author": "",
   "license": "MIT",
