@@ -56,6 +56,9 @@ class Inbox extends Component {
   render() {
     return (
       <div className={styles.subtitle}>
+        <h1>
+          Archive
+        </h1>
         {this.props.children}
       </div>
     );

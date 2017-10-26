@@ -42,8 +42,7 @@ module.exports = {
             loader: 'css-loader',
             options: {
               modules: true,
-              localIdentName: '[name]__[local]--[hash:base64:5]',
-              includePaths: ["node_modules/flexboxgrid"]
+              localIdentName: '[name]__[local]--[hash:base64:5]'
             }
           }
         ]
@@ -89,8 +88,8 @@ module.exports = {
 
   plugins: [
     new webpack.DefinePlugin({
-      PUBLIC_URL: PRODUCTION ? 'https://tksupercollider.github.io/' : '/',
-      ASSET_URL: PRODUCTION ? 'https://raw.githubusercontent.com/tksupercollider/tksupercollider.github.io/master/' : '/'
+      PUBLIC_URL: PRODUCTION ? JSON.stringify('https://tksupercollider.github.io/') : JSON.stringify('/'),
+      ASSET_URL: PRODUCTION ? JSON.stringify('https://raw.githubusercontent.com/tksupercollider/tksupercollider.github.io/master/') : JSON.stringify('/')
     }),
     new ExtractTextPlugin("[name].css"),
     new webpack.ProvidePlugin({
