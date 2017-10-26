@@ -56,9 +56,6 @@ class Inbox extends Component {
   render() {
     return (
       <div className={styles.subtitle}>
-        <h1>
-          Archive
-        </h1>
         {this.props.children}
       </div>
     );
@@ -66,6 +63,7 @@ class Inbox extends Component {
 }
 
 var routes = (
+
   <Route exact path= '/' component={ App }>
     <IndexRoute component={ Page }/>
 
@@ -88,8 +86,9 @@ var routes = (
 );
 
 ReactDOM.render(
-  <Router routes={routes} history={browserHistory} />,
-  document.getElementById('app')
+  // TODO: routing in gh-pages
+  <Router routes={routes} basename={`PUBLIC_URL`} history={browserHistory}/>
+  ,document.getElementById('app')
 );
 
 export default App;

@@ -10,7 +10,7 @@
     "production": "npm run clean && NODE_ENV=production webpack -p",
     "watch": "npm run start",
     "start": "npm run build && npm run server",
-    "deploy": "git subtree push --prefix docs/ origin gh-pages",
+    "deploy": "npm run production && git subtree push --prefix docs/ origin master",
     "server": "webpack-dev-server --content-base docs --historyApiFallback true"
   },
   "author": "",
@@ -33,6 +33,7 @@
     "react-markdown": "^2.5.0",
     "react-mixin": "^3.0.5",
     "react-router": "^3.0.0",
+    "react-router-dom": "^4.2.2",
     "ts-react-pager": "^0.4.0"
   },
   "devDependencies": {
