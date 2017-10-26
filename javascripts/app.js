@@ -46604,7 +46604,7 @@ var PostLoader = function PostLoader(path) {
   _classCallCheck(this, PostLoader);
 
   return new Promise(function (resolve) {
-    __WEBPACK_IMPORTED_MODULE_0_jquery___default.a.get(https://tksupercollider.github.io/ + 'posts/' + path, function (result) {
+    __WEBPACK_IMPORTED_MODULE_0_jquery___default.a.get(https://raw.githubusercontent.com/tksupercollider/tksupercollider.github.io/master/ + 'posts/' + path, function (result) {
       var res;
       try {
         res = yaml(result);
