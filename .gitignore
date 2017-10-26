@@ -1,6 +1,5 @@
 .tmp
 node_modules
-/public
 .sass-cache/
 npm-debug.log
 deploy.sh

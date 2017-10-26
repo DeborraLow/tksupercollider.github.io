@@ -1,0 +1,79 @@
+a:link {
+ color: #444444; 
+ text-decoration: none;
+}
+a:visited { color: #444444; }
+a:hover {
+  color: #666666; 
+  background:#ffdcd6;
+}
+a:active { color: #444444; }
+
+::selection {
+  background:#ffdcd6;
+}
+p {
+  word-wrap: break-word;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+blockquote {
+  margin-left: 0;
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+}
+
+pre {
+  padding: 10px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45em;
+  background-color: #555;
+  border-radius: 6px;
+}
+
+pre code {
+  line-height: 2.0em;
+}
+
+.app {
+  font-family: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  width: 80%;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+main .subtitle {
+  font-size: 12px;
+}
+
+main .subtitle h1 {
+  color: #444444;
+  margin-bottom: 50px;
+  margin-top: 120px;
+}
+
+.app .manu.menu__state--open {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    width: 87%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .app {
+    width: 88%;
+  }
+
+  main .subtitle h1 {
+    margin-bottom: 50px;
+  }
+}
+
