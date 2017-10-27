@@ -4,3 +4,5 @@ server:
 	@yarn run watch
 post:
 	@cd ./bin && ./new_post.sh
+deploy:
+	@yarn run deploy
