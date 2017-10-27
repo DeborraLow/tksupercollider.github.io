@@ -8,7 +8,7 @@ tags: []
  
 
 
-#Tokyo SuperCollider #19
+# Tokyo SuperCollider #19
 
 音響合成プログラミング言語「SuperCollider」の勉強会。情報交換やスキルアップを目指したユーザーミーティングを行います。
 
@@ -16,7 +16,7 @@ tags: []
 
 現在の残席数の目安：1部10、2部 10（8/1現在）
 
-##１部：入門講座 （13:00-14:45）
+## １部：入門講座 （13:00-14:45）
 
 ```
 女性限定！入門SCワークショップ「プログラミングで音をつくろう」by @Craftwife
@@ -31,7 +31,7 @@ SuperColliderでの基本操作ができる方を対象に、女性講師（@Cra
 ```
 
 
-##２部：SC User’s Meeting (15:00 - 17:00)
+## ２部：SC User’s Meeting (15:00 - 17:00)
 
 ```
 LNX Studio入門 by @Craftwife
