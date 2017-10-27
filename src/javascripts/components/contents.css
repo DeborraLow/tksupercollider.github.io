@@ -50,6 +50,18 @@
   margin-bottom: 2px;
 }
 
+.contents .content h1 {
+  font-size: 13px;
+}
+
+.contents .content h2 {
+  font-size: 13px;
+}
+
+.contents .content h3 {
+  font-size: 13px;
+}
+
 .contents .content img {
   margin-top: 2px;
   margin-bottom: 2px;
