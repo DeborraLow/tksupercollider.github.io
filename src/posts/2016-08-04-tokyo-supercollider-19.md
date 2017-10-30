@@ -18,27 +18,31 @@ tags: []
 
 ## １部：入門講座 （13:00-14:45）
 
-```
+/*
+
 女性限定！入門SCワークショップ「プログラミングで音をつくろう」by @Craftwife
 
 SuperColliderでの基本操作ができる方を対象に、女性講師（@Craftwife）による音作りの入門  講座を行います。パソコンで音や音楽を作ってみたいけど、どうしたらいいの？スーパーコライダーに興味があるんだけど、なんだか難しそう…。勉強会は男性ばっかりで参加しづらいなぁ…    と思っている女性のみなさん向けの講座です。無料のプログラミング環境・SuperColliderをつかって、音を作ってみましょう。。作った音色は第２部のLNX Studioで使うことができます。SuperColliderを初めて使う方は、事前にこちらの「基本操作について ( http://www.craftwife.com/tn8/?p=155 )」をお読みください。
 
 参加条件：
-・SuperColliderでの基本操作（SuperColliderの起動やコードの実行）ができる女性の方。
-・お使いのマシンに事前にLNX Studio（MacOS    Xをお使いの方）、SuperColliderをインストールしておいてください。
-・もし参加をキャンセルされる場合は、なるべく早めにお願いいたします。
 
-```
+- SuperColliderでの基本操作（SuperColliderの起動やコードの実行）ができる女性の方。
+- お使いのマシンに事前にLNX Studio（MacOS    Xをお使いの方）、SuperColliderをインストールしておいてください。
+- もし参加をキャンセルされる場合は、なるべく早めにお願いいたします。
+
+*/
 
 
 ## ２部：SC User’s Meeting (15:00 - 17:00)
 
-```
+/*
+
 LNX Studio入門 by @Craftwife
 
 後半のユーザーズ・ミーティングでは、SuperColliderで作られたMac OS  X上で動作するフリーのDAWソフトウェア「LNX Studio」の使い方を解説します。
 
-```
+*/
+
 
 LNX Studioとは… Demoビデオ [https://www.youtube.com/watch?v=mt7gTyoFsj8](https://www.youtube.com/watch?v=mt7gTyoFsj8)
 
@@ -46,7 +50,7 @@ SuperColliderで作られたMac OS X上で動作するフリーのDAWソフト�
 
 ダウンロード： [http://lnxstudio.sourceforge.net/](http://lnxstudio.sourceforge.net/) （ページ右側の緑色のDOWNLOADボタンをクリックします）
 
----
+//---------------------------------------------------------------------------------------------------------------------------------------
 
 日付 ：2016 / 8 / 28 (Sun.)
 場所 ：Upgrade English

@@ -3,7 +3,7 @@ let yaml = require('front-matter');
 const asset_url = ASSET_URL;
 class PostLoader {
   constructor(path) {
-    console.log(asset_url);
+    // console.log(asset_url);
     return new Promise((resolve) => {
       $.get(asset_url + 'posts/' + path, (result) => {
         var res;
