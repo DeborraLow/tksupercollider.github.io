@@ -27,3 +27,7 @@
 .paginator .pagination .hiding {
   display: none;
 }
+
+.paginator .pagination a {
+  color: #b9bfff;
+}

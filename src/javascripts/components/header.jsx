@@ -40,6 +40,9 @@ class Header extends Component {
             <li>
               <Link to="https://twitter.com/tksupercollider" target="_blank">[Twitter]</Link>
             </li>
+            <li>
+              <Link to="https://github.com/tksupercollider" target="_blank">[Github]</Link>
+            </li>
           </ul>
         </div>
         <div className={styles.divider}>

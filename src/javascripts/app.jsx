@@ -16,6 +16,7 @@ import Header from './components/header.jsx';
 import Footer from './components/footer.jsx';
 import Page from './components/page.jsx';
 import Post from './components/post.jsx';
+import About from './components/about.jsx';
 import NotFound404 from './components/notfound404.jsx';
 import scrollTop from './lib/ScrollTop.js';
 
@@ -63,12 +64,15 @@ class Inbox extends Component {
 }
 
 var routes = (
-
   <Route exact path= '/' component={ App }>
     <IndexRoute component={ Page }/>
 
     <Route path="top" component={ Inbox }>
       <Redirect from="archive/:id" to="/archive/:id" />
+    </Route>
+
+    <Route component={ Inbox }>
+      <Route path='about' component={ About } />
     </Route>
 
     <Route component={ Inbox }>

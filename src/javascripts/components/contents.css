@@ -3,7 +3,7 @@
 }
 
 .contents .title {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .contents .title a {
@@ -12,7 +12,7 @@
 }
 
 .contents h2 {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .contents .date {
@@ -21,7 +21,7 @@
 
 .contents .date h3 {
   color: #ffff88;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .contents .date.hiding {
@@ -33,7 +33,7 @@
 }
 
 .contents .content {
-  font-size: 13px;
+  font-size: 14px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -52,45 +52,53 @@
 .contents .content h1 {
   margin-bottom: 8px;
   margin-top: 8px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .contents .content a h2 {
   color: #9ab1af;
   margin-bottom: 8px;
   margin-top: 8px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .contents .content h2 {
-  color: #d4d4d4;
+  color: #b9bfff;
   margin-bottom: 8px;
   margin-top: 8px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
-.contents .content a h3 {
+.contents .content h3 {
+  color: #b9bfff;
   margin-bottom: 8px;
   margin-top: 8px;
-  font-size: 13px;
+  font-size: 14px;
+  }
+
+.contents .content a h3 {
+  color: #b9bfff;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 14px;
 }
 
 .contents .title a h1 {
   margin-top: 8px;
   margin-bottom: 8px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .contents .title h2 {
   margin-top: 8px;
   margin-bottom: 8px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .contents .title h3 {
   margin-top: 8px;
   margin-bottom: 8px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .contents .content img {
@@ -113,5 +121,5 @@
  text-decoration: none;
 }
 .contents .content a:visited { color: #bc5ab2; }
-.contents .content a:hover { color: #d11c24; }
+.contents .content a:hover { color: #551c24; }
 .contents .content a:active { color: #bc5ab2; }
