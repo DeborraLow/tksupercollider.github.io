@@ -1,5 +1,5 @@
 body {
-  background-color: #233344;
+  background-color: #1e2831;
 }
 
 a:link {
@@ -9,12 +9,12 @@ a:link {
 a:visited { color: #ff4444; }
 a:hover {
   color: #666666; 
-  background:#9ab1af;
+  background:#c0dad8;
 }
 a:active { color: #444444; }
 
 ::selection {
-  background:#ffdcd6;
+  background:#c0dad8;
 }
 p {
   word-wrap: break-word;
@@ -39,12 +39,12 @@ pre {
 
 pre code {
   line-height: 2.0em;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .app {
   font-family: 'Conso', Monaco, New, monospace;
-  font-size: 13px;
+  font-size: 14px;
   width: 80%;
   margin: 0 auto;
   max-width: 1440px;
@@ -54,7 +54,7 @@ main .subtitle {
 }
 
 main .subtitle h1 {
-  font-size: 13px;
+  font-size: 14px;
   color: #ffffff;
 }
 
