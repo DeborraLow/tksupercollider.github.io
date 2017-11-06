@@ -10,6 +10,8 @@ development repository for : [https://tksupercollider.github.io/](https://tksupe
 
 ```make post```
 
+And edit ```src/posts/<yaer-month-date>.md```. This markdown file convert to html when page rendering.
+
 then build as production:
 
 ```yarn run production```
