@@ -91,7 +91,7 @@ var routes = (
 
 ReactDOM.render(
   // TODO: routing in gh-pages
-  <Router routes={routes} basename={`PUBLIC_URL`} history={browserHistory}/>
+  <Router routes={ routes } basename={ `PUBLIC_URL` } history={ browserHistory }/>
   ,document.getElementById('app')
 );
 

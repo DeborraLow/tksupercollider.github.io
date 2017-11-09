@@ -55,7 +55,7 @@ class Container extends Component {
           });
       });
     } else {
-      all = this.mapItem(curennt_props.currentData[0])
+      all = this.mapItem(curennt_props.currentData[0], NUMBER.MAX_VALUE)
         .then((res) => {
           new_rows.push(res);
         });
