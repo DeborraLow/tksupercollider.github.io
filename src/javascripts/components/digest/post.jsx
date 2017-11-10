@@ -30,7 +30,7 @@ class DigestPost extends Component {
       <div className={styles.post}>
         <div className={styles.left}>
           <h4>
-            {this.props.date} ::
+            {this.props.date} >>
           </h4>
         </div>
 
