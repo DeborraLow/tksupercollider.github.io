@@ -29,7 +29,7 @@ class Container extends Component {
       }
       new PostLoader(item.path)
         .then((res) => {
-          const key = Date.now() + i;
+          const key = Date.now() + i + Math.random() * 9999;
           let contents = <Contents title={res.attributes.title} date={date} body={res.body} key={key} path={res.path} layout={res.attributes.layout}/>;
           resolve(contents);
         });
@@ -55,7 +55,7 @@ class Container extends Component {
           });
       });
     } else {
-      all = this.mapItem(curennt_props.currentData[0], NUMBER.MAX_VALUE)
+      all = this.mapItem(curennt_props.currentData[0], Number.MAX_VALUE)
         .then((res) => {
           new_rows.push(res);
         });

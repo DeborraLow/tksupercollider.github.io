@@ -17,6 +17,7 @@ import Footer from './components/footer.jsx';
 import Page from './components/page.jsx';
 import Post from './components/post.jsx';
 import About from './components/about.jsx';
+import Digest from './components/digest/index.jsx';
 import NotFound404 from './components/notfound404.jsx';
 import scrollTop from './lib/ScrollTop.js';
 
@@ -29,6 +30,7 @@ class App extends Component {
     super(props);
     this.onCloseMenu = this.onCloseMenu.bind(this);
     this.onMenuChange = this.onMenuChange.bind(this);
+    this.getDigest = this.getDigest.bind(this);
   }
   onCloseMenu() {
     this.refs.header.setState({toggleMenu: false});
@@ -39,6 +41,13 @@ class App extends Component {
       this.refs.menu.setChangeState(state);
     }
   }
+  getDigest() {
+    let digest;
+    if (this.props.location.pathname === '/') {
+      digest = <Digest ref="digest"/>;
+    }
+    return digest;
+  }
 
   render() {
     return (
@@ -47,6 +56,7 @@ class App extends Component {
         <main>
           {this.props.children}
         </main>
+        {this.getDigest()}
         <Footer />
       </div>
     );
