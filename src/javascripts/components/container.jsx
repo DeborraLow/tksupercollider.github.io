@@ -64,7 +64,7 @@ class Container extends Component {
     Promise.all(all)
       .then(() => {
         this.setState({rows: new_rows});
-        this.forceUpdate();
+        // this.forceUpdate();
       });
   }
 

@@ -19,6 +19,11 @@ class Digest extends Component {
     this.mapItem = this.mapItem.bind(this);
     this.getPosts = this.getPosts.bind(this);
     this.post_rows = [];
+    this.state = this.initInitialState();
+  }
+
+  initInitialState() {
+    return { posts: null };
   }
 
   componentDidMount() {
@@ -26,7 +31,9 @@ class Digest extends Component {
       this.getPosts(post_data.slice(0, 5)),
     ])
     .then(() => {
-      this.forceUpdate();
+      this.setState({
+        posts: this.post_rows
+      })
     });
   }
 
@@ -60,7 +67,7 @@ class Digest extends Component {
     return (
       <div className={styles.digest}>
         <div className={styles.posts}>        
-          {this.post_rows}
+          {this.state.posts}
         </div>
       </div>
     );
